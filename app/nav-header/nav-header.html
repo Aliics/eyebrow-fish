@@ -1,0 +1,23 @@
+<style>
+    .bd-s {
+        border: solid 1px;
+    }
+
+    .pd-5 {
+        padding: 5px;
+    }
+
+    .rmg-5 {
+        margin-right: 5px;
+    }
+</style>
+
+<div class="bd-s pd-5">
+    <a>{{ $ctrl.title }}</a>
+    <a>{{ $ctrl.textIcon }}</a>
+    <div>
+        <a ng-repeat="navButton in $ctrl.navButtons"
+           class="rmg-5"
+           href="{{ navButton.url }}">{{ navButton.text }}</a>
+    </div>
+</div>
