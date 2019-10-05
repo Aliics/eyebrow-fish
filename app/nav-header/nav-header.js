@@ -1,5 +1,3 @@
-'use strict';
-
 class NavigationHeaderController {
     title = 'eyebrow.fish';
     textIcon = '<\'`><';
@@ -14,6 +12,8 @@ class NavigationHeaderController {
         }
     ];
 }
+
+'use strict';
 
 angular.module('eyebrowFish', []).component('navHeader', {
         templateUrl: 'nav-header/nav-header.html',
