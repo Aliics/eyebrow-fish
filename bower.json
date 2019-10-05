@@ -1,0 +1,6 @@
+{
+  "name": "eyebrow-fish",
+  "dependencies": {
+    "angular": "1.7.8"
+  }
+}
