@@ -7,17 +7,28 @@
         padding: 5px;
     }
 
+    .pr {
+        position: relative;
+    }
+
     .rmg-5 {
         margin-right: 5px;
     }
+
+    .p-tr {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 </style>
 
-<div class="bd-s pd-5">
+<div class="bd-s pd-5 pr">
     <a>{{ $ctrl.title }}</a>
-    <a>{{ $ctrl.textIcon }}</a>
+    <a class="p-tr">{{ $ctrl.textIcon }}</a>
     <div>
         <a ng-repeat="navButton in $ctrl.navButtons"
            class="rmg-5"
+           title="{{ navButton.desc === undefined ? navButton.text : navButton.desc }}"
            href="{{ navButton.url }}">{{ navButton.text }}</a>
     </div>
 </div>

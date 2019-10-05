@@ -4,10 +4,12 @@ class NavigationHeaderController {
     navButtons = [
         {
             text: 'home',
+            desc: 'The home page of eyebrow.fish',
             url: '/'
         },
         {
             text: 'contact',
+            desc: 'Need to know how to contact me?',
             url: '/'
         }
     ];
