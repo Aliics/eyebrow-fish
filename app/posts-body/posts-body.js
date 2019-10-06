@@ -2,7 +2,12 @@ class PostsBodyController {
     header = 'posts';
     posts = [
         {
-            title: 'place holder post',
+            title: 'place holder post #2',
+            posted: '1 day ago',
+            content: 'Hello again, World!'
+        },
+        {
+            title: 'place holder post #1',
             posted: '2 days ago',
             content: 'Hello, World!'
         }
