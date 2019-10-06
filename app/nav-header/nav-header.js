@@ -17,8 +17,10 @@ class NavigationHeaderController {
 
 'use strict';
 
-angular.module('eyebrowFish', []).component('navHeader', {
+eyebrowFishModule.component('navHeader', {
         templateUrl: 'nav-header/nav-header.html',
         controller: NavigationHeaderController
     }
-);
+).component('foo', {
+    template: 'foo'
+});
