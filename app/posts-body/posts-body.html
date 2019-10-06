@@ -1,4 +1,9 @@
 <div class="bd-s pd-5 tmg-5">
     <a>{{ $ctrl.header }}</a>
-    <p ng-repeat="paragraph in $ctrl.paragraphs">{{ '&nbsp;' + paragraph }}</p>
+    <div class="bd-d pd-5 tmg-5 pr" ng-repeat="post in $ctrl.posts">
+        <a class="tx-ul">{{ post.title }}</a>
+        <a class="p-tr tmg-5 rmg-5 tx-s">{{ post.posted }}</a>
+        <br/>
+        <a>{{ post.content}}</a>
+    </div>
 </div>

@@ -2,6 +2,10 @@
     border: solid 1px;
 }
 
+.bd-d {
+    border: dashed 1px;
+}
+
 .pd-5 {
     padding: 5px;
 }
@@ -22,4 +26,12 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.tx-s {
+    font-size: small;
+}
+
+.tx-ul {
+    text-decoration: underline;
 }
