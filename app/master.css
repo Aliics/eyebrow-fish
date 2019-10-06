@@ -1,0 +1,21 @@
+.bd-s {
+    border: solid 1px;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pr {
+    position: relative;
+}
+
+.rmg-5 {
+    margin-right: 5px;
+}
+
+.p-tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
