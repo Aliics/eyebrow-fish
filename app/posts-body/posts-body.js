@@ -11,7 +11,8 @@ class PostsBodyController {
             posted: '2 days ago',
             content: 'Hello, World!'
         }
-    ]
+    ];
+    noPostsMessage = "Oh noes! There are no posts here! :^("
 }
 
 'use strict';

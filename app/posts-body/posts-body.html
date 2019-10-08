@@ -6,4 +6,7 @@
         <br/>
         <a>{{ post.content}}</a>
     </div>
+    <div class="ct" ng-if="$ctrl.posts.length < 1">
+        <p>{{ $ctrl.noPostsMessage }}</p>
+    </div>
 </div>
