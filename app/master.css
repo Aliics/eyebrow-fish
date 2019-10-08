@@ -1,14 +1,19 @@
-html {
-    min-height: 100%;
-}
-
 body {
     margin: 0;
     min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .bd-s {
     border: solid 1px;
+}
+
+.tbd-s {
+    border-top: solid 1px;
 }
 
 .bd-d {
